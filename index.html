@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>requirejs with gruntjs</title>
+  <!--(if target dev)><!-->
+  <link rel="stylesheet" href="css/index.css?ver={{ver}}">
+  <!--<!(endif)-->
+  <!--(if target release)>
+  <link rel="stylesheet" href="css/index.min.css">
+  <!(endif)-->
+</head>
+<body>
+  <h3 class="title">This is test page header</h3>
+  <!--(if target dev)><!-->
+  <script src="//0.0.0.0:35729/livereload.js"></script>
+  <script src="js/require.js" data-main="js/main"></script>
+  <script>require(['modules/index'])</script>
+  <!--<!(endif)-->
+  <!--(if target release)>
+  <script src="js/index.min.js"></script>
+  <!(endif)-->
+</body>
+</html>
