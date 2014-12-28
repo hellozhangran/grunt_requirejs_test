@@ -20,4 +20,7 @@ frontend module with grunt and requirejs
 *   compile less with [grunt-less](https://github.com/gruntjs/grunt-contrib-less)
 *   compress css with [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin)
 *   use [grunt-hashres](https://github.com/Luismahou/grunt-hashres) generate MD5 fingerprint for JS and CSS, and also update files link in releated HTML files. 
-*   start server: `grunt release`
+*  start server: `grunt release`
+
+### add by ran
+* just test
